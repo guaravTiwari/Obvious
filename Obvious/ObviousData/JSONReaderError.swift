@@ -13,7 +13,6 @@ case fileNameMissing
 case fileNotFound
 case fileNotDecodable
   
-  
   var errorDescription: String {
     switch self {
       case .fileNameMissing:

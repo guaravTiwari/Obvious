@@ -10,7 +10,7 @@ import XCTest
 
 final class JSONFileReaderTest: XCTestCase {
   
-  var fileReader = JSONFileReader()
+  let fileReader = JSONFileReader()
   
     //MARK: - Tests including the filename
   func test_missing_filename_throws() {
