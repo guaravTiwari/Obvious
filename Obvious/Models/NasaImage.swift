@@ -8,5 +8,6 @@
 import Foundation
 
 struct NasaImage: Decodable {
-  let explanation, hdurl, url, title: String
+  let explanation, title: String
+  let hdurl, url: URL
 }

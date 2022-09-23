@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60085F528DE1F8900E76B4E /* AsyncronousImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60085F428DE1F8900E76B4E /* AsyncronousImage.swift */; };
+		B60085F728DE1F9600E76B4E /* AsynchronousImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60085F628DE1F9600E76B4E /* AsynchronousImageViewModel.swift */; };
 		B697BD7B28DB676C00FB3DD0 /* ObviousApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD7A28DB676C00FB3DD0 /* ObviousApp.swift */; };
-		B697BD7D28DB676C00FB3DD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD7C28DB676C00FB3DD0 /* ContentView.swift */; };
 		B697BD7F28DB676E00FB3DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B697BD7E28DB676E00FB3DD0 /* Assets.xcassets */; };
 		B697BD9628DB676E00FB3DD0 /* ObviousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD9528DB676E00FB3DD0 /* ObviousUITests.swift */; };
 		B697BD9828DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD9728DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift */; };
@@ -19,6 +20,13 @@
 		B697BDAF28DB73CB00FB3DD0 /* JSONFileReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BDAE28DB73CB00FB3DD0 /* JSONFileReaderTest.swift */; };
 		B697BDB128DB820000FB3DD0 /* InvalidImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = B697BDB028DB820000FB3DD0 /* InvalidImageData.json */; };
 		B697BDB428DB97C600FB3DD0 /* JSONReaderErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BDB328DB97C600FB3DD0 /* JSONReaderErrorTest.swift */; };
+		B6D1069928DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1069828DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift */; };
+		B6D1069B28DDED65001488E2 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1069A28DDED65001488E2 /* ImageGridView.swift */; };
+		B6EC97AE28DC8F680011A73D /* ImageGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC97AD28DC8F680011A73D /* ImageGridViewModel.swift */; };
+		B6EC97B228DC90E50011A73D /* NasaImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC97B128DC90E50011A73D /* NasaImageService.swift */; };
+		B6EC97B528DC91900011A73D /* NasaImagesFromLocalJSONService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC97B428DC91900011A73D /* NasaImagesFromLocalJSONService.swift */; };
+		B6EC97B728DC96A30011A73D /* ImageGridViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC97B628DC96A30011A73D /* ImageGridViewModelTest.swift */; };
+		B6EC97BA28DC97340011A73D /* MockImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC97B928DC97340011A73D /* MockImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B60085F428DE1F8900E76B4E /* AsyncronousImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncronousImage.swift; sourceTree = "<group>"; };
+		B60085F628DE1F9600E76B4E /* AsynchronousImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynchronousImageViewModel.swift; sourceTree = "<group>"; };
 		B697BD7728DB676C00FB3DD0 /* Obvious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obvious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B697BD7A28DB676C00FB3DD0 /* ObviousApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObviousApp.swift; sourceTree = "<group>"; };
-		B697BD7C28DB676C00FB3DD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B697BD7E28DB676E00FB3DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B697BD8728DB676E00FB3DD0 /* ObviousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObviousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B697BD9128DB676E00FB3DD0 /* ObviousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObviousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +64,13 @@
 		B697BDB028DB820000FB3DD0 /* InvalidImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InvalidImageData.json; sourceTree = "<group>"; };
 		B697BDB228DB8F9200FB3DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B697BDB328DB97C600FB3DD0 /* JSONReaderErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderErrorTest.swift; sourceTree = "<group>"; };
+		B6D1069828DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImagesFromLocalJSONServiceTest.swift; sourceTree = "<group>"; };
+		B6D1069A28DDED65001488E2 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
+		B6EC97AD28DC8F680011A73D /* ImageGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewModel.swift; sourceTree = "<group>"; };
+		B6EC97B128DC90E50011A73D /* NasaImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImageService.swift; sourceTree = "<group>"; };
+		B6EC97B428DC91900011A73D /* NasaImagesFromLocalJSONService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImagesFromLocalJSONService.swift; sourceTree = "<group>"; };
+		B6EC97B628DC96A30011A73D /* ImageGridViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewModelTest.swift; sourceTree = "<group>"; };
+		B6EC97B928DC97340011A73D /* MockImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +123,11 @@
 			children = (
 				B697BDB228DB8F9200FB3DD0 /* Info.plist */,
 				B697BD7A28DB676C00FB3DD0 /* ObviousApp.swift */,
-				B697BD7C28DB676C00FB3DD0 /* ContentView.swift */,
+				B6EC97B028DC90930011A73D /* DataService */,
 				B697BDAB28DB704F00FB3DD0 /* Models */,
-				B697BDA428DB698900FB3DD0 /* ObviousData */,
+				B6EC97AC28DC8F3B0011A73D /* Views */,
+				B6EC97AB28DC8F2F0011A73D /* ViewModels */,
+				B697BDA428DB698900FB3DD0 /* ObviousDataStore */,
 				B697BD7E28DB676E00FB3DD0 /* Assets.xcassets */,
 			);
 			path = Obvious;
@@ -120,6 +138,8 @@
 			children = (
 				B697BDAE28DB73CB00FB3DD0 /* JSONFileReaderTest.swift */,
 				B697BDB328DB97C600FB3DD0 /* JSONReaderErrorTest.swift */,
+				B6D1069828DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift */,
+				B6EC97B828DC97200011A73D /* ImageGridViewModelTest */,
 			);
 			path = ObviousTests;
 			sourceTree = "<group>";
@@ -133,7 +153,7 @@
 			path = ObviousUITests;
 			sourceTree = "<group>";
 		};
-		B697BDA428DB698900FB3DD0 /* ObviousData */ = {
+		B697BDA428DB698900FB3DD0 /* ObviousDataStore */ = {
 			isa = PBXGroup;
 			children = (
 				B697BDA528DB699A00FB3DD0 /* NasaImageData.json */,
@@ -141,7 +161,7 @@
 				B697BDA728DB69B300FB3DD0 /* JSONFileReader.swift */,
 				B697BDA928DB6BA500FB3DD0 /* JSONReaderError.swift */,
 			);
-			path = ObviousData;
+			path = ObviousDataStore;
 			sourceTree = "<group>";
 		};
 		B697BDAB28DB704F00FB3DD0 /* Models */ = {
@@ -150,6 +170,50 @@
 				B697BDAC28DB706C00FB3DD0 /* NasaImage.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B6EC97AB28DC8F2F0011A73D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC97AD28DC8F680011A73D /* ImageGridViewModel.swift */,
+				B60085F628DE1F9600E76B4E /* AsynchronousImageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B6EC97AC28DC8F3B0011A73D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6D1069A28DDED65001488E2 /* ImageGridView.swift */,
+				B60085F428DE1F8900E76B4E /* AsyncronousImage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6EC97B028DC90930011A73D /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC97B328DC914C0011A73D /* NasaImageService */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		B6EC97B328DC914C0011A73D /* NasaImageService */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC97B128DC90E50011A73D /* NasaImageService.swift */,
+				B6EC97B428DC91900011A73D /* NasaImagesFromLocalJSONService.swift */,
+			);
+			path = NasaImageService;
+			sourceTree = "<group>";
+		};
+		B6EC97B828DC97200011A73D /* ImageGridViewModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC97B628DC96A30011A73D /* ImageGridViewModelTest.swift */,
+				B6EC97B928DC97340011A73D /* MockImageService.swift */,
+			);
+			path = ImageGridViewModelTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +232,8 @@
 			dependencies = (
 			);
 			name = Obvious;
+			packageProductDependencies = (
+			);
 			productName = Obvious;
 			productReference = B697BD7728DB676C00FB3DD0 /* Obvious.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +306,8 @@
 				Base,
 			);
 			mainGroup = B697BD6E28DB676C00FB3DD0;
+			packageReferences = (
+			);
 			productRefGroup = B697BD7828DB676C00FB3DD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -283,10 +351,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B697BD7D28DB676C00FB3DD0 /* ContentView.swift in Sources */,
+				B6EC97AE28DC8F680011A73D /* ImageGridViewModel.swift in Sources */,
+				B6EC97B528DC91900011A73D /* NasaImagesFromLocalJSONService.swift in Sources */,
+				B6D1069B28DDED65001488E2 /* ImageGridView.swift in Sources */,
 				B697BDA828DB69B300FB3DD0 /* JSONFileReader.swift in Sources */,
 				B697BDAD28DB706C00FB3DD0 /* NasaImage.swift in Sources */,
+				B60085F528DE1F8900E76B4E /* AsyncronousImage.swift in Sources */,
+				B6EC97B228DC90E50011A73D /* NasaImageService.swift in Sources */,
 				B697BD7B28DB676C00FB3DD0 /* ObviousApp.swift in Sources */,
+				B60085F728DE1F9600E76B4E /* AsynchronousImageViewModel.swift in Sources */,
 				B697BDAA28DB6BA500FB3DD0 /* JSONReaderError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +370,9 @@
 			files = (
 				B697BDAF28DB73CB00FB3DD0 /* JSONFileReaderTest.swift in Sources */,
 				B697BDB428DB97C600FB3DD0 /* JSONReaderErrorTest.swift in Sources */,
+				B6EC97B728DC96A30011A73D /* ImageGridViewModelTest.swift in Sources */,
+				B6D1069928DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift in Sources */,
+				B6EC97BA28DC97340011A73D /* MockImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +526,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Obvious/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Images";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -480,6 +558,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Obvious/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Images";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

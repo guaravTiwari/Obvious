@@ -11,7 +11,7 @@ import SwiftUI
 struct ObviousApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      ImageGridView()
     }
   }
 }
