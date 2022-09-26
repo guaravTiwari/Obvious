@@ -5,7 +5,7 @@
 //  Created by Gaurav Tiwari on 22/09/22.
 //
 
-import Foundation
+import SwiftUI
 import Combine
 
 final class ImageGridViewModel: ObservableObject {
@@ -13,10 +13,12 @@ final class ImageGridViewModel: ObservableObject {
   @Published var images = [NasaImage]()
   private let imageService: NasaImageService
   private(set) var imageServiceError: Error?
-  
+  @Published var showDetails = false
+  var tappedImage: NasaImage?
+  let imageSize: CGFloat = 100
+
   init(imageService: NasaImageService = NasaImagesFromLocalJSONService()) {
     self.imageService = imageService
-    fetchImages()
   }
   
   func fetchImages() {
@@ -38,4 +40,8 @@ final class ImageGridViewModel: ObservableObject {
   var hasErrorToDisplay: Bool {
     imageServiceError != nil
   }
+  
+  var adaptiveColumns = [
+    GridItem(.adaptive(minimum: 100))
+  ]
 }

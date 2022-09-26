@@ -7,7 +7,21 @@
 
 import Foundation
 
-struct NasaImage: Decodable {
+final class NasaImage: Decodable {
   let explanation, title: String
   let hdurl, url: URL
+
+  
+  init(explanation: String, title: String, hdurl: URL, url: URL) {
+    self.explanation = explanation
+    self.title = title
+    self.hdurl = hdurl
+    self.url = url
+  }
+}
+
+extension NasaImage: Equatable {
+  static func == (lhs: NasaImage, rhs: NasaImage) -> Bool {
+    lhs.url == rhs.url
+  }
 }

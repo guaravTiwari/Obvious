@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B60085F528DE1F8900E76B4E /* AsyncronousImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60085F428DE1F8900E76B4E /* AsyncronousImage.swift */; };
-		B60085F728DE1F9600E76B4E /* AsynchronousImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60085F628DE1F9600E76B4E /* AsynchronousImageViewModel.swift */; };
+		B641116528DF183A00D8B9BF /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641116428DF183A00D8B9BF /* ImageDetailView.swift */; };
+		B641116E28DF240700D8B9BF /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641116D28DF240700D8B9BF /* RemoteImageView.swift */; };
 		B697BD7B28DB676C00FB3DD0 /* ObviousApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD7A28DB676C00FB3DD0 /* ObviousApp.swift */; };
 		B697BD7F28DB676E00FB3DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B697BD7E28DB676E00FB3DD0 /* Assets.xcassets */; };
-		B697BD9628DB676E00FB3DD0 /* ObviousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD9528DB676E00FB3DD0 /* ObviousUITests.swift */; };
-		B697BD9828DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BD9728DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift */; };
 		B697BDA628DB699A00FB3DD0 /* NasaImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = B697BDA528DB699A00FB3DD0 /* NasaImageData.json */; };
 		B697BDA828DB69B300FB3DD0 /* JSONFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BDA728DB69B300FB3DD0 /* JSONFileReader.swift */; };
 		B697BDAA28DB6BA500FB3DD0 /* JSONReaderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BDA928DB6BA500FB3DD0 /* JSONReaderError.swift */; };
@@ -20,6 +18,11 @@
 		B697BDAF28DB73CB00FB3DD0 /* JSONFileReaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BDAE28DB73CB00FB3DD0 /* JSONFileReaderTest.swift */; };
 		B697BDB128DB820000FB3DD0 /* InvalidImageData.json in Resources */ = {isa = PBXBuildFile; fileRef = B697BDB028DB820000FB3DD0 /* InvalidImageData.json */; };
 		B697BDB428DB97C600FB3DD0 /* JSONReaderErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B697BDB328DB97C600FB3DD0 /* JSONReaderErrorTest.swift */; };
+		B6A91B2A28E1BD8E00614916 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B6A91B2928E1BD8E00614916 /* SDWebImageSwiftUI */; };
+		B6A91B2D28E2042200614916 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B6A91B2C28E2042200614916 /* SDWebImageSwiftUI */; };
+		B6A91B2F28E20BFA00614916 /* ImageDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A91B2E28E20BFA00614916 /* ImageDetailViewModel.swift */; };
+		B6A91B3128E20EBE00614916 /* ImageDetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A91B3028E20EBE00614916 /* ImageDetailViewModelTest.swift */; };
+		B6A91B3328E2130200614916 /* ImageGridViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A91B3228E2130200614916 /* ImageGridViewUITest.swift */; };
 		B6D1069928DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1069828DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift */; };
 		B6D1069B28DDED65001488E2 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D1069A28DDED65001488E2 /* ImageGridView.swift */; };
 		B6EC97AE28DC8F680011A73D /* ImageGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC97AD28DC8F680011A73D /* ImageGridViewModel.swift */; };
@@ -47,15 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B60085F428DE1F8900E76B4E /* AsyncronousImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncronousImage.swift; sourceTree = "<group>"; };
-		B60085F628DE1F9600E76B4E /* AsynchronousImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynchronousImageViewModel.swift; sourceTree = "<group>"; };
+		B641116428DF183A00D8B9BF /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		B641116D28DF240700D8B9BF /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
 		B697BD7728DB676C00FB3DD0 /* Obvious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obvious.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B697BD7A28DB676C00FB3DD0 /* ObviousApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObviousApp.swift; sourceTree = "<group>"; };
 		B697BD7E28DB676E00FB3DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B697BD8728DB676E00FB3DD0 /* ObviousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObviousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B697BD9128DB676E00FB3DD0 /* ObviousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObviousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B697BD9528DB676E00FB3DD0 /* ObviousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObviousUITests.swift; sourceTree = "<group>"; };
-		B697BD9728DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObviousUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B697BDA528DB699A00FB3DD0 /* NasaImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NasaImageData.json; sourceTree = "<group>"; };
 		B697BDA728DB69B300FB3DD0 /* JSONFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileReader.swift; sourceTree = "<group>"; };
 		B697BDA928DB6BA500FB3DD0 /* JSONReaderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderError.swift; sourceTree = "<group>"; };
@@ -64,6 +65,9 @@
 		B697BDB028DB820000FB3DD0 /* InvalidImageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InvalidImageData.json; sourceTree = "<group>"; };
 		B697BDB228DB8F9200FB3DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B697BDB328DB97C600FB3DD0 /* JSONReaderErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReaderErrorTest.swift; sourceTree = "<group>"; };
+		B6A91B2E28E20BFA00614916 /* ImageDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewModel.swift; sourceTree = "<group>"; };
+		B6A91B3028E20EBE00614916 /* ImageDetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewModelTest.swift; sourceTree = "<group>"; };
+		B6A91B3228E2130200614916 /* ImageGridViewUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewUITest.swift; sourceTree = "<group>"; };
 		B6D1069828DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImagesFromLocalJSONServiceTest.swift; sourceTree = "<group>"; };
 		B6D1069A28DDED65001488E2 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		B6EC97AD28DC8F680011A73D /* ImageGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewModel.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A91B2A28E1BD8E00614916 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A91B2D28E2042200614916 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +111,7 @@
 				B697BD8A28DB676E00FB3DD0 /* ObviousTests */,
 				B697BD9428DB676E00FB3DD0 /* ObviousUITests */,
 				B697BD7828DB676C00FB3DD0 /* Products */,
+				B6A91B2B28E1BE1700614916 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +146,7 @@
 				B697BDAE28DB73CB00FB3DD0 /* JSONFileReaderTest.swift */,
 				B697BDB328DB97C600FB3DD0 /* JSONReaderErrorTest.swift */,
 				B6D1069828DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift */,
+				B6A91B3028E20EBE00614916 /* ImageDetailViewModelTest.swift */,
 				B6EC97B828DC97200011A73D /* ImageGridViewModelTest */,
 			);
 			path = ObviousTests;
@@ -147,8 +155,7 @@
 		B697BD9428DB676E00FB3DD0 /* ObviousUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B697BD9528DB676E00FB3DD0 /* ObviousUITests.swift */,
-				B697BD9728DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift */,
+				B6A91B3228E2130200614916 /* ImageGridViewUITest.swift */,
 			);
 			path = ObviousUITests;
 			sourceTree = "<group>";
@@ -172,11 +179,18 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		B6A91B2B28E1BE1700614916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B6EC97AB28DC8F2F0011A73D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				B6EC97AD28DC8F680011A73D /* ImageGridViewModel.swift */,
-				B60085F628DE1F9600E76B4E /* AsynchronousImageViewModel.swift */,
+				B6A91B2E28E20BFA00614916 /* ImageDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -185,7 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				B6D1069A28DDED65001488E2 /* ImageGridView.swift */,
-				B60085F428DE1F8900E76B4E /* AsyncronousImage.swift */,
+				B641116428DF183A00D8B9BF /* ImageDetailView.swift */,
+				B641116D28DF240700D8B9BF /* RemoteImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +248,7 @@
 			);
 			name = Obvious;
 			packageProductDependencies = (
+				B6A91B2928E1BD8E00614916 /* SDWebImageSwiftUI */,
 			);
 			productName = Obvious;
 			productReference = B697BD7728DB676C00FB3DD0 /* Obvious.app */;
@@ -252,6 +268,9 @@
 				B697BD8928DB676E00FB3DD0 /* PBXTargetDependency */,
 			);
 			name = ObviousTests;
+			packageProductDependencies = (
+				B6A91B2C28E2042200614916 /* SDWebImageSwiftUI */,
+			);
 			productName = ObviousTests;
 			productReference = B697BD8728DB676E00FB3DD0 /* ObviousTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -307,6 +326,7 @@
 			);
 			mainGroup = B697BD6E28DB676C00FB3DD0;
 			packageReferences = (
+				B6A91B2828E1BD8E00614916 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = B697BD7828DB676C00FB3DD0 /* Products */;
 			projectDirPath = "";
@@ -354,12 +374,13 @@
 				B6EC97AE28DC8F680011A73D /* ImageGridViewModel.swift in Sources */,
 				B6EC97B528DC91900011A73D /* NasaImagesFromLocalJSONService.swift in Sources */,
 				B6D1069B28DDED65001488E2 /* ImageGridView.swift in Sources */,
+				B641116E28DF240700D8B9BF /* RemoteImageView.swift in Sources */,
 				B697BDA828DB69B300FB3DD0 /* JSONFileReader.swift in Sources */,
+				B641116528DF183A00D8B9BF /* ImageDetailView.swift in Sources */,
 				B697BDAD28DB706C00FB3DD0 /* NasaImage.swift in Sources */,
-				B60085F528DE1F8900E76B4E /* AsyncronousImage.swift in Sources */,
 				B6EC97B228DC90E50011A73D /* NasaImageService.swift in Sources */,
 				B697BD7B28DB676C00FB3DD0 /* ObviousApp.swift in Sources */,
-				B60085F728DE1F9600E76B4E /* AsynchronousImageViewModel.swift in Sources */,
+				B6A91B2F28E20BFA00614916 /* ImageDetailViewModel.swift in Sources */,
 				B697BDAA28DB6BA500FB3DD0 /* JSONReaderError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +392,7 @@
 				B697BDAF28DB73CB00FB3DD0 /* JSONFileReaderTest.swift in Sources */,
 				B697BDB428DB97C600FB3DD0 /* JSONReaderErrorTest.swift in Sources */,
 				B6EC97B728DC96A30011A73D /* ImageGridViewModelTest.swift in Sources */,
+				B6A91B3128E20EBE00614916 /* ImageDetailViewModelTest.swift in Sources */,
 				B6D1069928DDEB31001488E2 /* NasaImagesFromLocalJSONServiceTest.swift in Sources */,
 				B6EC97BA28DC97340011A73D /* MockImageService.swift in Sources */,
 			);
@@ -380,8 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B697BD9828DB676E00FB3DD0 /* ObviousUITestsLaunchTests.swift in Sources */,
-				B697BD9628DB676E00FB3DD0 /* ObviousUITests.swift in Sources */,
+				B6A91B3328E2130200614916 /* ImageGridViewUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +476,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -508,6 +530,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -592,9 +615,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilu.ObviousTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obvious.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Obvious";
 			};
 			name = Debug;
@@ -612,9 +638,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilu.ObviousTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obvious.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Obvious";
 			};
 			name = Release;
@@ -695,6 +724,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6A91B2828E1BD8E00614916 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6A91B2928E1BD8E00614916 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6A91B2828E1BD8E00614916 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		B6A91B2C28E2042200614916 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6A91B2828E1BD8E00614916 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B697BD6F28DB676C00FB3DD0 /* Project object */;
 }
