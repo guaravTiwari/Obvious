@@ -31,6 +31,7 @@ struct ImageDetailView: View {
       Text(viewModel.title)
         .font(.title)
         .fontWeight(.medium)
+        .accessibility(identifier: "ImageDetailTitle")
       
       ScrollView(showsIndicators: false) {
         HStack {
